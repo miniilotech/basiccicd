@@ -27,7 +27,7 @@ jobs:
         
       - name: Run Tests with Coverage
         run: npm run test:coverage
-        continue-on-error: true
+        #continue-on-error: true
   docker:
    name: Docker Build and Test
    needs: build
