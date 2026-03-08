@@ -9,3 +9,6 @@ output "acr_url" {
 output "webapp_url" {
   value = "https://${module.web_app.default_hostname}"
 }
+output "acr_name" {
+  value = module.container_registry.name
+}
