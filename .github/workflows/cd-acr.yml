@@ -2,9 +2,9 @@ name: Build and push to ACR
 
 on:
   pull_request:
-    branches: [ artifacts-with-acr ]
+    branches: [ cd-webapp-deployment ]
   push:
-    branches: [ artifacts-with-acr ]
+    branches: [ cd-webapp-deployment ]
   workflow_dispatch:
 jobs:
   docker:
